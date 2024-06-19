@@ -47,7 +47,6 @@ public class Dice : MonoBehaviour
                 lastYPosition = diceFaces[i].position.y;
                 topFace = i;
             }
-
         }
 
         Debug.Log($"Dice result {topFace + 1}");
